@@ -461,20 +461,103 @@ ul.pager li a:visited {
   /* line 1, ../sass/partials/design/blocks/_video.scss */
   .video-hero {
     margin-top: 125px;
+    margin-bottom: 60px;
   }
 }
 /* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .video-hero {
   margin-top: 125px;
+  margin-bottom: 60px;
 }
 
-/* line 12, ../sass/partials/design/blocks/_video.scss */
+/* line 13, ../sass/partials/design/blocks/_video.scss */
 .video-hero iframe, .video-hero object, .video-hero embed {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+/* line 1, ../sass/partials/design/blocks/_dividers.scss */
+.divider {
+  background: url("../images/divider.svg") no-repeat center center;
+  height: 55px;
+  overflow: hidden;
+  position: relative;
+}
+/* line 6, ../sass/partials/design/blocks/_dividers.scss */
+.divider h3 {
+  color: #fff;
+  text-transform: uppercase;
+  position: absolute;
+  left: 70px;
+  bottom: -20px;
+  font-size: 4em;
+  margin: 0;
+}
+
+/* line 1, ../sass/partials/design/blocks/_learn-more.scss */
+#learn-more {
+  background-color: #002b54;
+}
+/* line 4, ../sass/partials/design/blocks/_learn-more.scss */
+#learn-more .content {
+  text-align: center;
+  background: #002b54 url("../images/pdf.svg") no-repeat 95% center;
+  padding: 2em 0;
+}
+/* line 8, ../sass/partials/design/blocks/_learn-more.scss */
+#learn-more .content a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+/* line 12, ../sass/partials/design/blocks/_learn-more.scss */
+#learn-more .content h3 {
+  color: #fff;
+  font-size: 4.5em;
+  margin: 0 0 0 -1em;
+}
+/* line 17, ../sass/partials/design/blocks/_learn-more.scss */
+#learn-more .content h4 {
+  color: #fff;
+  font-size: 2.5em;
+  margin: 0 0 0 -1em;
+}
+
+/* line 2, ../sass/partials/design/blocks/_archives.scss */
+#archives h3 {
+  color: #ab1d40;
+  font-size: 3em;
+  margin: 0;
+  padding: .3em 0;
+  display: block;
+  border-bottom: solid #ab1d40 2px;
+  text-transform: uppercase;
+}
+/* line 11, ../sass/partials/design/blocks/_archives.scss */
+#archives .content {
+  padding: 2em 0;
+  -webkit-column-count: 5;
+     -moz-column-count: 5;
+          column-count: 5;
+  -webkit-column-gap: 20px;
+     -moz-column-gap: 20px;
+          column-gap: 20px;
+}
+/* line 15, ../sass/partials/design/blocks/_archives.scss */
+#archives .content ul {
+  margin: 0;
+  padding: 0;
+}
+/* line 18, ../sass/partials/design/blocks/_archives.scss */
+#archives .content ul li {
+  display: block;
+}
+/* line 20, ../sass/partials/design/blocks/_archives.scss */
+#archives .content ul li a {
+  font-size: 1.5em;
+  text-transform: none;
 }
 
 /* line 1, ../sass/partials/design/regions/_footer.scss */
@@ -581,29 +664,35 @@ ul.pager li a:visited {
   text-transform: uppercase;
   padding-top: 5px;
   font-size: .9em;
+  -webkit-transition: color .5s ease;
+          transition: color .5s ease;
 }
-/* line 51, ../sass/partials/design/regions/_header.scss */
+/* line 49, ../sass/partials/design/regions/_header.scss */
+.main-nav ul li a:hover {
+  color: #002b54;
+}
+/* line 55, ../sass/partials/design/regions/_header.scss */
 .main-nav .by-the-numbers {
   background: url("../images/by-the-numbers.svg") center center no-repeat;
   padding-left: 20px;
 }
-/* line 55, ../sass/partials/design/regions/_header.scss */
+/* line 59, ../sass/partials/design/regions/_header.scss */
 .main-nav .our-mission {
   background: url("../images/our-mission.svg") center center no-repeat;
   padding-left: 20px;
 }
-/* line 59, ../sass/partials/design/regions/_header.scss */
+/* line 63, ../sass/partials/design/regions/_header.scss */
 .main-nav .pfa-service-areas {
   background: url("../images/pfa-service-areas.svg") center center no-repeat;
   padding-right: 20px;
 }
-/* line 63, ../sass/partials/design/regions/_header.scss */
+/* line 67, ../sass/partials/design/regions/_header.scss */
 .main-nav .budget {
   background: url("../images/budget.svg") center center no-repeat;
   padding-right: 20px;
 }
 
-/* line 70, ../sass/partials/design/regions/_header.scss */
+/* line 74, ../sass/partials/design/regions/_header.scss */
 .header-wrapper {
   padding: 1em 0;
   background: #002B54;
@@ -611,7 +700,7 @@ ul.pager li a:visited {
   text-align: center;
 }
 @media (min-width: 50em) {
-  /* line 70, ../sass/partials/design/regions/_header.scss */
+  /* line 74, ../sass/partials/design/regions/_header.scss */
   .header-wrapper {
     height: 125px;
     z-index: 1;

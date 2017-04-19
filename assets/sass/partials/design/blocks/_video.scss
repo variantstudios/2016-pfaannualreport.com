@@ -7,6 +7,7 @@
     max-width: 100%; 
     @include breakpoint($bp-medium, $no-query: ".no-mq") {
         margin-top: 125px;
+        margin-bottom: 60px;
     }
 }
 .video-hero iframe, .video-hero object, .video-hero embed { 

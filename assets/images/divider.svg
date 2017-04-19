@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200px" height="55px" viewBox="0 0 1200 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.80364631 56.6207 0.802667777 1.493 1201.80284 0.92 1201.80284 56.6207 0.80364631 56.6207"></polygon>
+        <polygon id="path-3" points="0.802667777 1.493 0.803668609 57.877 1201.80284 57.877 1201.80284 0.92"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard">
+            <g id="Page-1" transform="translate(-1.000000, -2.000000)">
+                <g id="Group-3" transform="translate(0.000000, 0.440000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <polygon id="Fill-1" fill="#36709E" mask="url(#mask-2)" points="-6.005196 -14.7143 -6.005196 56.6207 1835.23061 56.6207"></polygon>
+                </g>
+                <g id="Group-6" transform="translate(0.000000, 0.440000)">
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <g id="Clip-5"></g>
+                    <polygon id="Fill-4" fill="#6DAFDF" mask="url(#mask-4)" points="-402.334921 17.9473 1872.55166 59.9213 1849.85278 -59.4687"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

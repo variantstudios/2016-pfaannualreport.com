@@ -1,0 +1,28 @@
+#archives {
+    h3 {
+        color: $color-two;
+        font-size: 3em;
+        margin: 0;
+        padding: .3em 0;
+        display: block;
+        border-bottom: solid $color-two 2px;
+        text-transform: uppercase;
+    }
+    .content {
+        padding: 2em 0;
+        column-count: 5;
+        column-gap: 20px;
+        ul {
+            margin: 0;
+            padding: 0;
+            li {
+                display: block;
+                a {
+                    font-size: 1.5em;
+                    text-transform: none;
+                }
+            }
+        }
+    }
+          
+}
