@@ -1,0 +1,26 @@
+#learn-more {
+    background-color: $color-one;
+    
+    .content {
+        text-align: center;
+        background: $color-one url("../images/pdf.svg") no-repeat 95% center;
+        padding: 2em 0;
+            a {
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        h3 {
+            color: #fff;
+            font-size: 4.5em;
+            margin: 0 0 0 -1em;
+        }
+        h4 {
+            color: #fff;
+            font-size: 2.5em;
+            margin: 0 0 0 -1em;
+        }
+    
+    }
+
+
+}

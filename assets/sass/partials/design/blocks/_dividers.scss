@@ -1,0 +1,15 @@
+.divider {
+        background: url('../images/divider.svg') no-repeat center center; 
+        height: 55px;
+        overflow: hidden;
+        position: relative;
+        h3{
+            color: #fff;
+            text-transform: uppercase;
+            position: absolute;
+            left: 70px;
+            bottom: -20px;
+            font-size: 4em;
+            margin: 0;
+        }
+    }
