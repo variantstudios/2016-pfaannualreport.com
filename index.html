@@ -20,11 +20,15 @@ description: ""
     </div>
 </header>
 <section class="video-hero">
-    {% if jekyll.environment == "production" %}production{% endif %}
-    <!--<iframe src="https://player.vimeo.com/video/213763720?loop=1&autoplay=1" width="640" height="267" frameborder="0" webkitallowfullscreen
-        mozallowfullscreen allowfullscreen></iframe>-->
-    <iframe src="https://player.vimeo.com/video/213763720" width="640" height="267" frameborder="0" webkitallowfullscreen mozallowfullscreen
+    {% if jekyll.environment == "production" %}
+        <iframe src="https://player.vimeo.com/video/213763720" width="640" height="267" frameborder="0" webkitallowfullscreen mozallowfullscreen
         allowfullscreen></iframe>
+    {% endif %}
+     {% if jekyll.environment == "development" %}
+        <iframe src="https://player.vimeo.com/video/213763720?loop=1&autoplay=1" width="640" height="267" frameborder="0" webkitallowfullscreen
+        mozallowfullscreen allowfullscreen></iframe>
+     {% endif %}
+     
 </section>
 
 <div class="main-wrapper clearfix">
