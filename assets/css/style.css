@@ -500,7 +500,7 @@ ul.pager li a:visited {
 /* line 2, ../sass/partials/design/blocks/_our-mission.scss */
 #our-mission .title {
   text-align: center;
-  padding: 2em;
+  padding: 3em 3em 0 3em;
 }
 @media (min-width: 50em) {
   /* line 2, ../sass/partials/design/blocks/_our-mission.scss */
