@@ -78,7 +78,7 @@
   text-align: center;
   @include breakpoint($bp-medium, $no-query: ".no-mq") {
     height: 125px;
-    z-index: 1;
+    z-index: 15;
     position: fixed;
 	  top: 0;
 	  overflow: hidden;

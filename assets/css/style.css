@@ -497,6 +497,119 @@ ul.pager li a:visited {
   margin: 0;
 }
 
+/* line 2, ../sass/partials/design/blocks/_our-mission.scss */
+#our-mission .title {
+  text-align: center;
+  padding: 2em;
+}
+@media (min-width: 50em) {
+  /* line 2, ../sass/partials/design/blocks/_our-mission.scss */
+  #our-mission .title {
+    width: 50%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none;
+  }
+}
+/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq #our-mission .title {
+  width: 50%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0;
+  clear: none;
+}
+/* line 7, ../sass/partials/design/blocks/_our-mission.scss */
+#our-mission .title h3 {
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 2.5em;
+  margin: 0;
+}
+/* line 14, ../sass/partials/design/blocks/_our-mission.scss */
+#our-mission .title p {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1.2em;
+}
+/* line 21, ../sass/partials/design/blocks/_our-mission.scss */
+#our-mission .wrapper {
+  margin: 2em 0;
+}
+@media (min-width: 50em) {
+  /* line 24, ../sass/partials/design/blocks/_our-mission.scss */
+  #our-mission .gallery {
+    width: 50%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+}
+/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq #our-mission .gallery {
+  width: 50%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+}
+/* line 28, ../sass/partials/design/blocks/_our-mission.scss */
+#our-mission .gallery .flex-direction-nav a {
+  bottom: 5px;
+  top: initial;
+}
+/* line 33, ../sass/partials/design/blocks/_our-mission.scss */
+#our-mission .courage {
+  background-color: #6CAFDF;
+}
+/* line 36, ../sass/partials/design/blocks/_our-mission.scss */
+#our-mission .leadership {
+  background-color: #A92143;
+}
+@media (min-width: 50em) {
+  /* line 38, ../sass/partials/design/blocks/_our-mission.scss */
+  #our-mission .leadership .title {
+    width: 50%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+}
+/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq #our-mission .leadership .title {
+  width: 50%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+}
+@media (min-width: 50em) {
+  /* line 43, ../sass/partials/design/blocks/_our-mission.scss */
+  #our-mission .leadership .gallery {
+    width: 50%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none;
+  }
+}
+/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq #our-mission .leadership .gallery {
+  width: 50%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0;
+  clear: none;
+}
+/* line 49, ../sass/partials/design/blocks/_our-mission.scss */
+#our-mission .duty {
+  background-color: #032C53;
+}
+
 /* line 1, ../sass/partials/design/blocks/_learn-more.scss */
 #learn-more {
   background-color: #002b54;
@@ -703,7 +816,7 @@ ul.pager li a:visited {
   /* line 74, ../sass/partials/design/regions/_header.scss */
   .header-wrapper {
     height: 125px;
-    z-index: 1;
+    z-index: 15;
     position: fixed;
     top: 0;
     overflow: hidden;
@@ -712,7 +825,7 @@ ul.pager li a:visited {
 /* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .header-wrapper {
   height: 125px;
-  z-index: 1;
+  z-index: 15;
   position: fixed;
   top: 0;
   overflow: hidden;
