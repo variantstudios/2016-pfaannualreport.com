@@ -52,6 +52,20 @@
     ga('send', 'pageview');
   </script>
 {% endif %}
+
+<script defer src="assets/js/prod/jquery.flexslider-min.js"></script>
+ <script type="text/javascript">
+  $(window).load(function() {
+    $('.flexslider').flexslider({
+      animation: "slide",
+      controlNav: false, 
+      slideshow: false, 
+      start: function(slider){
+        $('body').removeClass('loading');
+      }
+    });
+  });
+</script>
 <script src="/assets/js/prod/scripts.js"></script>
 </body>
 </html>
