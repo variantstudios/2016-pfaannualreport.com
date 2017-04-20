@@ -673,6 +673,17 @@ ul.pager li a:visited {
   text-transform: none;
 }
 
+/* line 2, ../sass/partials/design/blocks/_by-the-numbers.scss */
+#by-the-numbers h4 {
+  border-top: dashed 1px #939598;
+  border-bottom: dashed 1px #939598;
+  font-family: "Roboto Condensed", sans-serif;
+  padding: .5em 0;
+  text-transform: uppercase;
+  font-size: 2em;
+  color: #ab1d40;
+}
+
 /* line 1, ../sass/partials/design/regions/_footer.scss */
 .footer-wrapper {
   background: #002b54;
