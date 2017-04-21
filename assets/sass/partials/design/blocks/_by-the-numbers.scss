@@ -3,9 +3,128 @@
         border-top: dashed 1px #939598;
         border-bottom: dashed 1px #939598;
         font-family: $font-family;
-        padding: .5em 0;
+        padding: .3em 0;
         text-transform: uppercase;
         font-size: 2em;
         color: $color-two;
+    }
+
+
+    h5.spinkler-title {
+        color: #6CAFE0;
+        font-size: 2em;
+        text-transform: uppercase;
+    }
+    .blue-box-wrapper {
+        margin-bottom: 1.5em;
+        .blue-box {
+            @include breakpoint($bp-medium, $no-query: ".no-mq") {
+                @include grid-span(9,1,$gutter:0);
+            }
+        }
+        .water-icon {
+            text-align: center;
+            @include breakpoint($bp-medium, $no-query: ".no-mq") {
+                @include grid-span(3,10,$gutter:0);
+            }
+            img {
+                width: 100px;
+            }
+            .num {
+                color: $color-one;
+                font-size: 4em;
+                font-weight: bold;
+                line-height: initial;
+                
+                @include breakpoint($bp-medium, $no-query: ".no-mq") {
+                    margin-top: -20px;
+                }
+            }
+        }
+    }
+    .blue-box {
+        background-color: $color-one;
+        border-radius: 10px;
+        color: #fff;
+        padding: 1em 1em .1em 1em;
+        font-size: 1.5em;
+    }
+    .red-box {
+        background-color: $color-two;
+        border-radius: 10px;
+        color: #fff;
+        padding: 1em 1em .1em 1em;
+        font-size: 1.4em;
+        margin-bottom: 2em;
+    }
+
+    .death-injury-wrapper {
+        margin: 2em 0 0 0;
+        .icon {
+            @include breakpoint($bp-medium, $no-query: ".no-mq") {
+                @include grid-span(3,1);
+            }
+            img {
+                width: 70%;
+            }
+        }
+        .details {
+            @include breakpoint($bp-medium, $no-query: ".no-mq") {
+                @include grid-span(9,4);
+            }
+            h5 {
+                color: #6CAFDF;
+                font-size: 2.8em;
+                text-transform: uppercase;
+                margin: 0;
+            }
+            p {
+                font-size: 2.5em;
+                margin-bottom: .4em;
+                text-transform: uppercase;
+            }
+            .num {
+                font-size: 1.3em;
+                font-weight: bold;
+                color: $color-one;
+            }
+        }
+
+    }
+    
+
+
+    .more-stats {
+        background-color: #E6E7E8;
+        border-radius: 20px;
+        height: 50px;
+        margin: 4em 0;
+        text-align: center;
+        .graph {
+            text-align: center;
+            background-color: #D1D3D4;
+            border-radius: 20px;
+            height: 100%;
+            width: 100px;
+            padding: 8px;
+            display: block;
+            float: left;
+            img{
+                height: 100%;
+            }
+        }
+        p {
+            display: inline;
+            text-transform: uppercase;
+            font-size: 2.4em;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+            line-height: initial;
+            a {
+                text-decoration: none;
+                color: #6CAFDF;
+            }
+        }
     }
 }
