@@ -827,14 +827,15 @@ ul.pager li a:visited {
   font-size: 2.5em;
   margin-bottom: .4em;
   text-transform: uppercase;
+  color: #58595B;
 }
-/* line 86, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 87, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers .death-injury-wrapper .details .num {
   font-size: 1.3em;
   font-weight: bold;
   color: #002b54;
 }
-/* line 97, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 98, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers .more-stats {
   background-color: #E6E7E8;
   border-radius: 20px;
@@ -842,7 +843,7 @@ ul.pager li a:visited {
   margin: 4em 0;
   text-align: center;
 }
-/* line 103, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 104, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers .more-stats .graph {
   text-align: center;
   background-color: #D1D3D4;
@@ -853,11 +854,11 @@ ul.pager li a:visited {
   display: block;
   float: left;
 }
-/* line 112, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 113, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers .more-stats .graph img {
   height: 100%;
 }
-/* line 116, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 117, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers .more-stats p {
   display: inline;
   text-transform: uppercase;
@@ -867,10 +868,91 @@ ul.pager li a:visited {
   margin: 0;
   line-height: initial;
 }
-/* line 124, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 125, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers .more-stats p a {
   text-decoration: none;
   color: #6CAFDF;
+}
+
+/* line 3, ../sass/partials/design/blocks/_testimonials.scss */
+.testimonials .flexslider .flex-direction-nav .flex-prev {
+  left: 5px;
+}
+/* line 6, ../sass/partials/design/blocks/_testimonials.scss */
+.testimonials .flexslider .flex-direction-nav .flex-next {
+  right: 10px;
+}
+/* line 10, ../sass/partials/design/blocks/_testimonials.scss */
+.testimonials h3 {
+  text-transform: uppercase;
+  font-size: 2em;
+  color: #6CAFDF;
+  border-bottom: solid 2px #6CAFDF;
+  display: block;
+  padding: 20px 0;
+  margin: 0;
+}
+/* line 19, ../sass/partials/design/blocks/_testimonials.scss */
+.testimonials .testimonial-wrap {
+  padding: 2em 4em;
+}
+@media (min-width: 50em) {
+  /* line 1, ../sass/partials/design/blocks/_testimonials.scss */
+  .testimonials {
+    width: 50%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none;
+  }
+}
+/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .testimonials {
+  width: 50%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0;
+  clear: none;
+}
+/* line 25, ../sass/partials/design/blocks/_testimonials.scss */
+.testimonials .testimonial {
+  font-size: 1.4em;
+  font-weight: 300;
+}
+/* line 29, ../sass/partials/design/blocks/_testimonials.scss */
+.testimonials .name {
+  color: #6CAFDF;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* line 2, ../sass/partials/design/blocks/_year-in-photos.scss */
+.year-in-photos h3 {
+  text-transform: uppercase;
+  font-size: 2em;
+  color: #6CAFDF;
+  border-bottom: solid 2px #6CAFDF;
+  display: block;
+  padding: 20px 0;
+  margin: 0;
+}
+@media (min-width: 50em) {
+  /* line 1, ../sass/partials/design/blocks/_year-in-photos.scss */
+  .year-in-photos {
+    width: 50%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+}
+/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .year-in-photos {
+  width: 50%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
 }
 
 /* line 1, ../sass/partials/design/regions/_footer.scss */
@@ -995,7 +1077,7 @@ ul.pager li a:visited {
   padding-left: 20px;
 }
 /* line 63, ../sass/partials/design/regions/_header.scss */
-.main-nav .pfa-service-areas {
+.main-nav .statistical-report {
   background: url("../images/pfa-service-areas.svg") center center no-repeat;
   padding-right: 20px;
 }

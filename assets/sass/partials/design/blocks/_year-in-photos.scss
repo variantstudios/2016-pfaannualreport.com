@@ -1,0 +1,15 @@
+.year-in-photos {
+    h3 {
+        text-transform: uppercase;
+        font-size: 2em;
+        color: #6CAFDF;
+        border-bottom: solid 2px #6CAFDF;
+        display: block;
+        padding: 20px 0;
+        margin: 0;
+    }
+    @include breakpoint($bp-medium, $no-query: ".no-mq") {
+        @include grid-span(6,7,$gutter:0);
+    }
+    
+}

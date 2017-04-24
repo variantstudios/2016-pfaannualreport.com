@@ -1,0 +1,35 @@
+.testimonials {
+    .flexslider {
+        .flex-direction-nav .flex-prev {
+            left: 5px;
+        }
+        .flex-direction-nav .flex-next {
+            right: 10px;
+        }
+    }
+    h3 {
+        text-transform: uppercase;
+        font-size: 2em;
+        color: #6CAFDF;
+        border-bottom: solid 2px #6CAFDF;
+        display: block;
+        padding: 20px 0;
+        margin: 0;
+    }
+    .testimonial-wrap {
+        padding: 2em 4em;
+    }
+    @include breakpoint($bp-medium, $no-query: ".no-mq") {
+        @include grid-span(6,1,$gutter:0);
+    }
+    .testimonial {
+        font-size: 1.4em;
+        font-weight: 300;
+    }
+    .name {
+        color: #6CAFDF;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    
+}
