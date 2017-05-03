@@ -673,7 +673,72 @@ ul.pager li a:visited {
   text-transform: none;
 }
 
-/* line 2, ../sass/partials/design/blocks/_by-the-numbers.scss */
+@media (min-width: 50em) {
+  /* line 2, ../sass/partials/design/blocks/_by-the-numbers.scss */
+  #by-the-numbers .left {
+    width: 50%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none;
+  }
+}
+/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq #by-the-numbers .left {
+  width: 50%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0;
+  clear: none;
+}
+@media (min-width: 50em) {
+  /* line 7, ../sass/partials/design/blocks/_by-the-numbers.scss */
+  #by-the-numbers .right {
+    width: 50%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+}
+/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq #by-the-numbers .right {
+  width: 50%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+}
+/* line 12, ../sass/partials/design/blocks/_by-the-numbers.scss */
+#by-the-numbers .staff-icons {
+  width: 100%;
+}
+/* line 15, ../sass/partials/design/blocks/_by-the-numbers.scss */
+#by-the-numbers ul.staff-title {
+  margin: 2em 0 0 0;
+  padding: 0;
+}
+/* line 18, ../sass/partials/design/blocks/_by-the-numbers.scss */
+#by-the-numbers ul.staff-title li {
+  margin: 0 0 .5em 0;
+  padding: 0;
+  display: block;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+/* line 24, ../sass/partials/design/blocks/_by-the-numbers.scss */
+#by-the-numbers ul.staff-title li.drk-blue {
+  color: #002b54;
+}
+/* line 25, ../sass/partials/design/blocks/_by-the-numbers.scss */
+#by-the-numbers ul.staff-title li.lt-blue {
+  color: #6caedf;
+}
+/* line 26, ../sass/partials/design/blocks/_by-the-numbers.scss */
+#by-the-numbers ul.staff-title li.red {
+  color: #ab1d40;
+}
+/* line 29, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers h4 {
   border-top: dashed 1px #939598;
   border-bottom: dashed 1px #939598;
@@ -683,18 +748,18 @@ ul.pager li a:visited {
   font-size: 2em;
   color: #ab1d40;
 }
-/* line 13, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 39, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers h5.spinkler-title {
   color: #6CAFE0;
   font-size: 2em;
   text-transform: uppercase;
 }
-/* line 18, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 44, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers .blue-box-wrapper {
   margin-bottom: 1.5em;
 }
 @media (min-width: 50em) {
-  /* line 20, ../sass/partials/design/blocks/_by-the-numbers.scss */
+  /* line 46, ../sass/partials/design/blocks/_by-the-numbers.scss */
   #by-the-numbers .blue-box-wrapper .blue-box {
     width: 75%;
     float: left;
@@ -711,12 +776,12 @@ ul.pager li a:visited {
   margin-left: 0;
   clear: none;
 }
-/* line 25, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 51, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers .blue-box-wrapper .water-icon {
   text-align: center;
 }
 @media (min-width: 50em) {
-  /* line 25, ../sass/partials/design/blocks/_by-the-numbers.scss */
+  /* line 51, ../sass/partials/design/blocks/_by-the-numbers.scss */
   #by-the-numbers .blue-box-wrapper .water-icon {
     width: 25%;
     float: right;
@@ -733,11 +798,11 @@ ul.pager li a:visited {
   margin-right: 0;
   clear: none;
 }
-/* line 30, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 56, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers .blue-box-wrapper .water-icon img {
   width: 100px;
 }
-/* line 33, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 59, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers .blue-box-wrapper .water-icon .num {
   color: #002b54;
   font-size: 4em;
@@ -745,7 +810,7 @@ ul.pager li a:visited {
   line-height: initial;
 }
 @media (min-width: 50em) {
-  /* line 33, ../sass/partials/design/blocks/_by-the-numbers.scss */
+  /* line 59, ../sass/partials/design/blocks/_by-the-numbers.scss */
   #by-the-numbers .blue-box-wrapper .water-icon .num {
     margin-top: -20px;
   }
@@ -754,7 +819,7 @@ ul.pager li a:visited {
 .no-mq #by-the-numbers .blue-box-wrapper .water-icon .num {
   margin-top: -20px;
 }
-/* line 45, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 71, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers .blue-box {
   background-color: #002b54;
   border-radius: 10px;
@@ -762,7 +827,7 @@ ul.pager li a:visited {
   padding: 1em 1em .1em 1em;
   font-size: 1.5em;
 }
-/* line 52, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 78, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers .red-box {
   background-color: #ab1d40;
   border-radius: 10px;
@@ -771,12 +836,12 @@ ul.pager li a:visited {
   font-size: 1.4em;
   margin-bottom: 2em;
 }
-/* line 61, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 87, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers .death-injury-wrapper {
   margin: 2em 0 0 0;
 }
 @media (min-width: 50em) {
-  /* line 63, ../sass/partials/design/blocks/_by-the-numbers.scss */
+  /* line 89, ../sass/partials/design/blocks/_by-the-numbers.scss */
   #by-the-numbers .death-injury-wrapper .icon {
     width: 23.40426%;
     float: left;
@@ -793,12 +858,12 @@ ul.pager li a:visited {
   margin-left: 0;
   clear: none;
 }
-/* line 67, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 93, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers .death-injury-wrapper .icon img {
   width: 70%;
 }
 @media (min-width: 50em) {
-  /* line 71, ../sass/partials/design/blocks/_by-the-numbers.scss */
+  /* line 97, ../sass/partials/design/blocks/_by-the-numbers.scss */
   #by-the-numbers .death-injury-wrapper .details {
     width: 74.46809%;
     float: right;
@@ -815,27 +880,27 @@ ul.pager li a:visited {
   margin-right: 0;
   clear: none;
 }
-/* line 75, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 101, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers .death-injury-wrapper .details h5 {
   color: #6CAFDF;
   font-size: 2.8em;
   text-transform: uppercase;
   margin: 0;
 }
-/* line 81, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 107, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers .death-injury-wrapper .details p {
   font-size: 2.5em;
   margin-bottom: .4em;
   text-transform: uppercase;
   color: #58595B;
 }
-/* line 87, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 113, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers .death-injury-wrapper .details .num {
   font-size: 1.3em;
   font-weight: bold;
   color: #002b54;
 }
-/* line 98, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 124, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers .more-stats {
   background-color: #E6E7E8;
   border-radius: 20px;
@@ -843,7 +908,7 @@ ul.pager li a:visited {
   margin: 4em 0;
   text-align: center;
 }
-/* line 104, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 130, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers .more-stats .graph {
   text-align: center;
   background-color: #D1D3D4;
@@ -854,11 +919,11 @@ ul.pager li a:visited {
   display: block;
   float: left;
 }
-/* line 113, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 139, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers .more-stats .graph img {
   height: 100%;
 }
-/* line 117, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 143, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers .more-stats p {
   display: inline;
   text-transform: uppercase;
@@ -868,7 +933,7 @@ ul.pager li a:visited {
   margin: 0;
   line-height: initial;
 }
-/* line 125, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 151, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers .more-stats p a {
   text-decoration: none;
   color: #6CAFDF;

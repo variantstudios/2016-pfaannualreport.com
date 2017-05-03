@@ -1,4 +1,31 @@
 #by-the-numbers{
+    .left {
+        @include breakpoint($bp-medium, $no-query: ".no-mq") {
+                @include grid-span(6,1,$gutter:0);
+        }
+    }
+    .right {
+        @include breakpoint($bp-medium, $no-query: ".no-mq") {
+                @include grid-span(6,7,$gutter:0);
+        }
+    }
+    .staff-icons {
+        width: 100%;
+    }
+    ul.staff-title {
+        margin: 2em 0 0 0;
+        padding: 0;
+        li {
+            margin: 0 0 .5em 0;
+            padding: 0;
+            display: block;
+            text-transform: uppercase;
+            font-size: 2em;
+            &.drk-blue {color: $color-one;}
+            &.lt-blue {color: $color-four;}
+            &.red {color: $color-two;}
+        }
+    }
     h4{
         border-top: dashed 1px #939598;
         border-bottom: dashed 1px #939598;
@@ -8,7 +35,6 @@
         font-size: 2em;
         color: $color-two;
     }
-
 
     h5.spinkler-title {
         color: #6CAFE0;
