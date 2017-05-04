@@ -102,23 +102,34 @@ description: ""
             <div class="divider">
                 <h3>By The Numbers</h3>
             </div>
+            <div class="clearfix">
             <h4>Uniformed &amp; Support Staff: 202</h4>
 
-            <img src="/assets/images/staff.svg" alt="" />
-
+            <img src="/assets/images/staff.svg" alt="" class="staff-icons"/>
+            </div>
+            <div class="clearfix">
             <div class="left">
-                Numbers
+                <ul class="staff-title">
+                    <li class="drk-blue">179: Full Time Firefighters</li>
+                    <li class="lt-blue">8%: Are Women</li>
+                    <li class="red">23: Administration</li>
+                </ul>
+                
             </div>
-            <div class="icons">
-                icons
+            <div class="right">
+                <img src="/assets/images/staff-types.svg" alt="" />
+            </div>
             </div>
 
-            <h4>Types of Calls</h4>
-            <div class="type-of-calls-graph">
-                graph
-            </div>
-            <div class="type-of-calls-grid">
-                grid
+            <div class="types-of-calls">
+                <h4>Types of Calls</h4>
+                <h3>Total 2016 incidents:  <strong>21,028 </strong> (10% increase from 2015) some calls included:</h3>
+                <div class="type-of-calls-graph">
+                    <canvas id="bar" height="450" width="600"></canvas>
+                </div>
+                <div class="type-of-calls-grid">
+                    grid
+                </div>
             </div>
 
             <h5 class="spinkler-title">Fire-sprinkler systems continue to save lives and property.</h5>
@@ -173,26 +184,40 @@ description: ""
             <div class="divider">
                 <h3>Budget</h3>
             </div>
-            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor
-                quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.
-                Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-            <p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas.
-                Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam
-                egestas semper.
-                <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper
-                pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean
-                fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui.
-                <a
-                    href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
+           
+    <div class="clearfix">
+      <div class="canvas-holder">
+        <canvas id="chart-area" width="500" height="500"/>
+      </div>
+      <div class="chart-details">
+      <ul data-sr='enter right wait 0.5s' class="budget-1">
+        <li class="color-152C53">City &amp; fire district taxes $28M (includes KFCG funding)</li>
+        <li class="color-AA1E41">Fees and charges for services $2M</li>
+        <li class="color-626467">capital fund revenue $6.5M</li>
+        <li class="color-499544">Earnings on investments $19K</li>
+        <li class="color-F38020">Grants and non-capital projects $42K</li>
+        <li class="color-6CAEDF">Miscellaneous revenue $111K</li>
+      </ul>
+      </div>
 
-            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor
-                quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.
-                Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra.
-                Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget
-                tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis
-                pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu
-                vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis
-                luctus, metus</p>
+    </div>
+    
+    <div class="clearfix">
+      <div class="canvas-holder">
+        <canvas id="chart-area2" width="500" height="500"/>
+      </div>
+      <div class="chart-details">
+        <ul data-sr='enter right wait 0.5s' class="budget-2">
+            <li class="color-152C53">Operations $19M</li>
+            <li class="color-AA1E41">Support $4M</li>
+            <li class="color-499544">Administration $3M</li>
+            <li class="color-9C8B6F">Community safety services $2M</li>
+            <li class="color-626467">Total capital expenditures $8M</li>
+        </ul>
+      </div>
+
+    </div>
+
 
             <div class="divider"></div>
 
