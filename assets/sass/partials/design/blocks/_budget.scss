@@ -4,15 +4,31 @@
     }
     .canvas-holder {
         @include breakpoint($bp-medium, $no-query: ".no-mq") {
-            @include grid-span(5,2);
+            @include grid-span(5,1);
         }
-        #chart-area2 {
-            widows: 100%;
+        position: relative;
+        // #chart-area2 {
+        //     width: 100%;
+        // }
+        .total {
+            width: 100%;
+            position: absolute;
+            top: 35%;
+            text-align: center;
+            color: #152C53;
+            font-size: 2.5em;
+            line-height: .9em;
+            text-transform: uppercase;
+            font-weight: bold;
+            .number {
+                font-size: 1.5em;
+                line-height: .9em;
+            }
         }
     }
     .chart-details {
         @include breakpoint($bp-medium, $no-query: ".no-mq") {
-            @include grid-span(5,8);
+            @include grid-span(6,7);
         }
         ul {
             margin: 0;
@@ -46,11 +62,26 @@
     .color-9C8B6F {
         color: #9C8B6F;
     }
-    .color-626467 {
-        color: #626467;
+    
+    .reserves, .expenditures {
+        margin: 4em 0 3em 0;
+        padding: 0 0 0 4em;
+        img {
+            display: inline-block;
+            width: 100px;
+        }
+        h3{
+            display: inline-block;
+            font-family: $font-family;
+            margin: 0 0 0 2em;
+            text-transform: uppercase;
+            font-size: 3em;
+            font-weight: normal;
+        }
     }
-
-
+    .expenditures h3 {
+        color: #6CAEDF;
+    }
     
 
 }
