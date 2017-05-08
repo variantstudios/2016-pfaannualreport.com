@@ -1,8 +1,7 @@
-
 var data = [
     {
       value: 76,
-      label: "City & Fire District Taxes: 28M",
+      label: "City and Fire District Taxes: 28M",
       color: "#152C53",
     },{
       value: 18,
@@ -25,8 +24,7 @@ var data = [
       label: "Miscellaneous revenue: 111K",
       color: "#6CAEDF",
     }
-
-  ];
+];
 
 var doughnutData2 = [
     {
@@ -44,23 +42,13 @@ var doughnutData2 = [
     },{
       value: 5.6,
       label: "Community Safety Services: 2M",
-      color: "#9C8B6F"
+      color: "#6CAEDF"
     },{
       value: 22,
       label: "Total Capital Expenditures: 8M",
       color: "#626467"
-    },{
-      value: 0.8,
-      label: "Grants and Non Capital Services: 281K",
-      color: "#002B54"
-    },{
-      value: 0.65,
-      label: "Lease Purchase: 234K",
-      color: "#499638"
     }
-  ];
-
-
+];
 
 
 var inView = false;
@@ -93,5 +81,3 @@ $(window).scroll(function() {
       inView4 = false;  
   }
 });
-
-

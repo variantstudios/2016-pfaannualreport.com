@@ -1,7 +1,7 @@
----
-layout: default
-title: "Poudre Fire Authority | 2016 Annual Report"
-description: ""
+--- 
+layout: default 
+title: "Poudre Fire Authority | 2016 Annual Report" 
+description: "" 
 ---
 <header class="header-wrapper clearfix">
     <div class="wrap clearfix">
@@ -21,13 +21,12 @@ description: ""
 </header>
 <section class="video-hero">
     {% if jekyll.environment == "production" %}
-        <iframe src="https://player.vimeo.com/video/213763720?loop=1&autoplay=1" width="640" height="267" frameborder="0" webkitallowfullscreen
+    <iframe src="https://player.vimeo.com/video/213763720?loop=1&autoplay=1" width="640" height="267" frameborder="0" webkitallowfullscreen
         mozallowfullscreen allowfullscreen></iframe>
-    {% endif %}
-     {% if jekyll.environment == "development" %}
-        <iframe src="https://player.vimeo.com/video/213763720" width="640" height="267" frameborder="0" webkitallowfullscreen mozallowfullscreen
+    {% endif %} {% if jekyll.environment == "development" %}
+    <iframe src="https://player.vimeo.com/video/213763720" width="640" height="267" frameborder="0" webkitallowfullscreen mozallowfullscreen
         allowfullscreen></iframe>
-     {% endif %}
+    {% endif %}
 </section>
 
 <div class="main-wrapper clearfix">
@@ -37,21 +36,22 @@ description: ""
                 <h3>Our Mission</h3>
             </div>
 
-            
-            
+
+
             <div class="courage wrapper clearfix">
                 <div class="title">
                     <h3>Courage</h3>
-                    <p>I/we will respectfully communicate, promote and accept the highest moral action regardless of outcome or risk to self.</p>
+                    <p>I/we will respectfully communicate, promote and accept the highest moral action regardless of outcome
+                        or risk to self.</p>
                 </div>
-            
+
                 <div class="gallery">
                     <div class="flexslider">
                         <ul class="slides">
                             <li><img src="/assets/images/our-mission/courage/Martin_photo.jpg" alt="Martin Romero
     Driver/Operator - 5 years" /></li>
                             <li><img src="/assets/images/our-mission/courage/Martin_photo_testimonial.jpg" alt="Martin Romero
-    Driver/Operator - Testimonial"/></li>
+    Driver/Operator - Testimonial" /></li>
                         </ul>
                     </div>
                 </div>
@@ -60,7 +60,8 @@ description: ""
             <div class="leadership wrapper clearfix">
                 <div class="title">
                     <h3>Leadership</h3>
-                    <p>I/we will respectfully communicate, promote and accept the highest moral action regardless of outcome or risk to self.</p>
+                    <p>I/we will respectfully communicate, promote and accept the highest moral action regardless of outcome
+                        or risk to self.</p>
                 </div>
                 <div class="gallery">
                     <div class="flexslider">
@@ -68,7 +69,7 @@ description: ""
                             <li><img src="/assets/images/our-mission/leadership/frank_photo.jpg" alt="Martin Romero
     Driver/Operator - 5 years" /></li>
                             <li><img src="/assets/images/our-mission/leadership/frank_photo_testimonial.jpg" alt="Martin Romero
-    Driver/Operator - Testimonial"/></li>
+    Driver/Operator - Testimonial" /></li>
                         </ul>
                     </div>
                 </div>
@@ -86,13 +87,13 @@ description: ""
                             <li><img src="/assets/images/our-mission/duty/Madeline_photo.jpg" alt="Martin Romero
     Driver/Operator - 5 years" /></li>
                             <li><img src="/assets/images/our-mission/duty/Madeline_photo_testimonial.jpg" alt="Martin Romero
-    Driver/Operator - Testimonial"/></li>
+    Driver/Operator - Testimonial" /></li>
                         </ul>
                     </div>
                 </div>
             </div>
-            
-            
+
+
         </div>
 
 
@@ -103,39 +104,67 @@ description: ""
                 <h3>By The Numbers</h3>
             </div>
             <div class="clearfix">
-            <h4>Uniformed &amp; Support Staff: 202</h4>
+                <h4>Uniformed &amp; Support Staff: 202</h4>
 
-            <img src="/assets/images/staff.svg" alt="" class="staff-icons"/>
+                <img src="/assets/images/staff.svg" alt="" class="staff-icons" />
             </div>
             <div class="clearfix">
-            <div class="left">
-                <ul class="staff-title">
-                    <li class="drk-blue">179: Full Time Firefighters</li>
-                    <li class="lt-blue">8%: Are Women</li>
-                    <li class="red">23: Administration</li>
-                </ul>
-                
-            </div>
-            <div class="right">
-                <img src="/assets/images/staff-types.svg" alt="" />
-            </div>
+                <div class="left">
+                    <ul class="staff-title">
+                        <li class="drk-blue">179: Full Time Firefighters</li>
+                        <li class="lt-blue">8%: Are Women</li>
+                        <li class="red">23: Administration</li>
+                    </ul>
+
+                </div>
+                <div class="right">
+                    <img src="/assets/images/staff-types.svg" alt="" />
+                </div>
             </div>
 
             <div class="types-of-calls">
                 <h4>Types of Calls</h4>
-                <h3>Total 2016 incidents:  <strong>21,028 </strong> (10% increase from 2015) some calls included:</h3>
+                <h3>Total 2016 incidents: <strong>21,028 </strong> (10% increase from 2015) some calls included:</h3>
                 <div class="type-of-calls-graph">
                     <canvas id="bar" height="450" width="600"></canvas>
                 </div>
-                <div class="type-of-calls-grid">
-                    grid
+                <div class="type-of-calls-grid clearfix">
+                    <div class="one">
+                        <span class="num">3</span>
+                        <div class="wrap">
+                        <div class="clear"><span class="txt">Large</span><img src="/assets/images/large-animal-rescues.svg" alt="" ></div>
+                         <div class="clear"><span class="txt">Animal</span><img src="/assets/images/large-animal-rescues.svg" alt="" /></div>
+                         <div class="clear"><span class="txt">Rescues</span><img src="/assets/images/large-animal-rescues.svg" alt="" /></div>
+                         </div>
+                    </div>
+                    <div class="two">
+                        <img src="/assets/images/wildland-fires.svg" alt="" />
+                    </div>
+                    <div class="three">
+                         <img src="/assets/images/call-every-min.svg" alt="" />
+                    </div>
                 </div>
+                <div class="type-of-calls-grid clearfix">
+                    <div class="one">
+                        <img src="/assets/images/elevator-rescues.svg" alt="" />
+                    </div>
+                    <div class="two">
+                        <img src="/assets/images/explosions.svg" alt="" />
+                    </div>
+                    <div class="three">
+                        <img src="/assets/images/train-derailment.svg" alt="" />
+                    </div>
+                </div>
+
+
             </div>
 
             <h5 class="spinkler-title">Fire-sprinkler systems continue to save lives and property.</h5>
             <div class="blue-box-wrapper clearfix">
                 <div class="blue-box">
-                    <p>On April 9, 2016, a fire-sprinkler system extinguished a dryer fire at Fort Collins Health Care Center, 1000 S. Lemay Ave. This is particularly notable, given that the residents are elderly and may have trouble quickly evacuating from the building in the event of a fire.</p>
+                    <p>On April 9, 2016, a fire-sprinkler system extinguished a dryer fire at Fort Collins Health Care Center,
+                        1000 S. Lemay Ave. This is particularly notable, given that the residents are elderly and may have
+                        trouble quickly evacuating from the building in the event of a fire.</p>
                 </div>
                 <div class="water-icon">
                     <div class="num">2</div>
@@ -144,7 +173,10 @@ description: ""
             </div>
 
             <div class="red-box">
-                <p>A fire-sprinkler system quickly put out a fire in a closet at Orthopaedic & Spine Center of the Rockies, 2500 E. Prospect Road. There was an estimated $5,000 in damage, but that number could have been far greater – and lives could have been put at greater risk – had the sprinkler system not existed and done the life- and property-saving job it was designed to do.</p>
+                <p>A fire-sprinkler system quickly put out a fire in a closet at Orthopaedic & Spine Center of the Rockies,
+                    2500 E. Prospect Road. There was an estimated $5,000 in damage, but that number could have been far greater
+                    – and lives could have been put at greater risk – had the sprinkler system not existed and done the life-
+                    and property-saving job it was designed to do.</p>
             </div>
 
             <h4>Death &amp; Injury</h4>
@@ -158,7 +190,7 @@ description: ""
                     <p><span class="num">5</span> Injuries on fire ground</p>
                 </div>
             </div>
-            
+
             <div class="death-injury-wrapper clearfix">
                 <div class="icon">
                     <img src="/assets/images/firefigher.svg" alt="firefigher">
@@ -174,7 +206,7 @@ description: ""
                 <div class="graph"><img src="/assets/images/graph.svg" alt="graph"></div>
                 <p><a href="/assets/pdfs/2016-PFA-Statistical-Annual-Report.pdf" target="_blank">Click here for more statistical information</a></p>
             </div>
-            
+
         </div>
 
 
@@ -184,133 +216,151 @@ description: ""
             <div class="divider">
                 <h3>Budget</h3>
             </div>
-           
-    <div class="clearfix">
-      <div class="canvas-holder">
-        <canvas id="chart-area" width="500" height="500"/>
-      </div>
-      <div class="chart-details">
-      <ul data-sr='enter right wait 0.5s' class="budget-1">
-        <li class="color-152C53">City &amp; fire district taxes $28M (includes KFCG funding)</li>
-        <li class="color-AA1E41">Fees and charges for services $2M</li>
-        <li class="color-626467">capital fund revenue $6.5M</li>
-        <li class="color-499544">Earnings on investments $19K</li>
-        <li class="color-F38020">Grants and non-capital projects $42K</li>
-        <li class="color-6CAEDF">Miscellaneous revenue $111K</li>
-      </ul>
-      </div>
 
-    </div>
-    
-    <div class="clearfix">
-      <div class="canvas-holder">
-        <canvas id="chart-area2" width="500" height="500"/>
-      </div>
-      <div class="chart-details">
-        <ul data-sr='enter right wait 0.5s' class="budget-2">
-            <li class="color-152C53">Operations $19M</li>
-            <li class="color-AA1E41">Support $4M</li>
-            <li class="color-499544">Administration $3M</li>
-            <li class="color-9C8B6F">Community safety services $2M</li>
-            <li class="color-626467">Total capital expenditures $8M</li>
-        </ul>
-      </div>
+            <div class="clearfix">
+                <div class="canvas-holder">
+                    <div class="total" data-sr='enter wait 0.5s'>total<br>revenue:<br><span class="number">$37M</span></div>
+                    <canvas id="chart-area" width="500" height="500" />
+                </div>
+                <div class="chart-details">
+                    <ul data-sr='enter right wait 0.5s' class="budget-1">
+                        <li class="color-152C53">City &amp; fire district taxes $28M (includes KFCG funding)</li>
+                        <li class="color-AA1E41">Fees and charges for services $2M</li>
+                        <li class="color-626467">capital fund revenue $6.5M</li>
+                        <li class="color-499544">Earnings on investments $19K</li>
+                        <li class="color-F38020">Grants and non-capital projects $42K</li>
+                        <li class="color-6CAEDF">Miscellaneous revenue $111K</li>
+                    </ul>
+                </div>
 
-    </div>
+            </div>
+
+            <div class="clearfix">
+                <div class="canvas-holder">
+                    <div class="total" data-sr='enter wait 0.5s'>total<br>revenue:<br><span class="number">$36M</span></div>
+                    <canvas id="chart-area2" width="500" height="500" />
+                     
+                </div>
+                <div class="chart-details">
+                    <ul data-sr='enter right wait 0.5s' class="budget-2">
+                        <li class="color-152C53">Operations $19M</li>
+                        <li class="color-AA1E41">Support $4M</li>
+                        <li class="color-499544">Administration $3M</li>
+                        <li class="color-9C8B6F">Community safety services $2M</li>
+                        <li class="color-626467">Total capital expenditures $8M</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="reserves">
+                <img src="/assets/images/reserves.svg" alt="2016 Reserves">
+                <h3><strong>2016 Reserves:</strong> $7.5M<br>
+                (Or 26% Of The Operating Revenue)</h3>
+            </div>
+
+            <div class="expenditures">
+                <img src="/assets/images/expenditures.svg" alt="2016 Budget Expenditures">
+                <h3><strong> 2016 Budget Expenditures:</strong><br>
+                Underspent By $671K <br>
+                (2.24% Of Budget)</h3>
+            </div>
+
+        </div>
 
 
-            <div class="divider"></div>
+        <div class="divider"></div>
 
-            
-            <div class="testimonials-year-in-photos wrapper clearfix">
 
-                <div class="testimonials">
-                     <h3>testimonials</h3>
-                    <div class="flexslider">
-                        <ul class="slides">
-                            <li>
-                                <div class="testimonial-wrap">
+        <div class="testimonials-year-in-photos wrapper clearfix">
+
+            <div class="testimonials">
+                <h3>testimonials</h3>
+                <div class="flexslider">
+                    <ul class="slides">
+                        <li>
+                            <div class="testimonial-wrap">
                                 <p class="testimonial"><i>I just wanted to say thank you to the gentlemen on E-4 as they made my day today. I witnessed three fellows take time out of their day and bring a bouquet of flowers to a resident in my apartment complex. I can only imagine how happy their gesture made her.</i></p>
                                 <p class="name">- Taffi</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="testimonial-wrap">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="testimonial-wrap">
                                 <p class="testimonial"><i>I just wanted to say thank you to the gentlemen on E-4 as they made my day today. I witnessed three fellows take time out of their day and bring a bouquet of flowers to a resident in my apartment complex. I can only imagine how happy their gesture made her.</i></p>
                                 <p class="name">- Taffi</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-            
-                <div class="year-in-photos">
-                     <h3>Year In Photos</h3>
-                    <div class="flexslider">
-                        <ul class="slides">
-                            <li><img src="/assets/images/year-in-photos/year_in_photos_1.jpg" alt="" /></li>
-                            <li><img src="/assets/images/year-in-photos/year_in_photos_2.jpg" alt="" /></li>
-                            <li><img src="/assets/images/year-in-photos/year_in_photos_3.jpg" alt="" /></li>
-                            <li><img src="/assets/images/year-in-photos/year_in_photos_4.jpg" alt="" /></li>
-                            <li><img src="/assets/images/year-in-photos/year_in_photos_5.jpg" alt="" /></li>
-                            <li><img src="/assets/images/year-in-photos/year_in_photos_6.jpg" alt="" /></li>
-                            <li><img src="/assets/images/year-in-photos/year_in_photos_7.jpg" alt="" /></li>
-                            <li><img src="/assets/images/year-in-photos/year_in_photos_8.jpg" alt="" /></li>
-                            <li><img src="/assets/images/year-in-photos/year_in_photos_9.jpg" alt="" /></li>
-                            <li><img src="/assets/images/year-in-photos/year_in_photos_10.jpg" alt="" /></li>
-                            <li><img src="/assets/images/year-in-photos/year_in_photos_11.jpg" alt="" /></li>
-                            <li><img src="/assets/images/year-in-photos/year_in_photos_12.jpg" alt="" /></li>
-                            <li><img src="/assets/images/year-in-photos/year_in_photos_13.jpg" alt="" /></li>
-                            <li><img src="/assets/images/year-in-photos/year_in_photos_14.jpg" alt="" /></li>
-                            <li><img src="/assets/images/year-in-photos/year_in_photos_15.jpg" alt="" /></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-<br/>
-<br/>
-             <div id="learn-more">
-                <div class="divider"></div>
-                <div class="content">
-                    <a href="#" class="cc-active">
-                        <h3>Want to Learn More?</h3>
-                        <h4>Download the 2016 Annual Report (PDF)</h4>
-                    </a>
-                </div>
-            </div>
-            <div id="archives">
-                <h3>Archives</h3>
-                <div class="content">
-                    <ul>
-                        <li><a href="" class="cc-active">2015 (PDF)</a></li>
-                        <li><a href="" class="cc-active">2014 (PDF)</a></li>
-                        <li><a href="" class="cc-active">2013 (PDF)</a></li>
-                        <li><a href="" class="cc-active">2012 (PDF)</a></li>
-                        <li><a href="" class="cc-active">2011 (PDF)</a></li>
-                        <li><a href="" class="cc-active">2010 (PDF)</a></li>
-                        <li><a href="" class="cc-active">2009 (PDF)</a></li>
-                        <li><a href="" class="cc-active">2008 (PDF)</a></li>
-                        <li><a href="" class="cc-active">2007 (PDF)</a></li>
-                        <li><a href="" class="cc-active">2006 (PDF)</a></li>
-                        <li><a href="" class="cc-active">2005 (PDF)</a></li>
-                        <li><a href="" class="cc-active">2004 (PDF)</a></li>
-                        <li><a href="" class="cc-active">2003 (PDF)</a></li>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </div>
 
 
-
-
+            <div class="year-in-photos">
+                <h3>Year In Photos</h3>
+                <div class="flexslider">
+                    <ul class="slides">
+                        <li><img src="/assets/images/year-in-photos/year_in_photos_1.jpg" alt="" /></li>
+                        <li><img src="/assets/images/year-in-photos/year_in_photos_2.jpg" alt="" /></li>
+                        <li><img src="/assets/images/year-in-photos/year_in_photos_3.jpg" alt="" /></li>
+                        <li><img src="/assets/images/year-in-photos/year_in_photos_4.jpg" alt="" /></li>
+                        <li><img src="/assets/images/year-in-photos/year_in_photos_5.jpg" alt="" /></li>
+                        <li><img src="/assets/images/year-in-photos/year_in_photos_6.jpg" alt="" /></li>
+                        <li><img src="/assets/images/year-in-photos/year_in_photos_7.jpg" alt="" /></li>
+                        <li><img src="/assets/images/year-in-photos/year_in_photos_8.jpg" alt="" /></li>
+                        <li><img src="/assets/images/year-in-photos/year_in_photos_9.jpg" alt="" /></li>
+                        <li><img src="/assets/images/year-in-photos/year_in_photos_10.jpg" alt="" /></li>
+                        <li><img src="/assets/images/year-in-photos/year_in_photos_11.jpg" alt="" /></li>
+                        <li><img src="/assets/images/year-in-photos/year_in_photos_12.jpg" alt="" /></li>
+                        <li><img src="/assets/images/year-in-photos/year_in_photos_13.jpg" alt="" /></li>
+                        <li><img src="/assets/images/year-in-photos/year_in_photos_14.jpg" alt="" /></li>
+                        <li><img src="/assets/images/year-in-photos/year_in_photos_15.jpg" alt="" /></li>
+                    </ul>
+                </div>
+            </div>
         </div>
+        <br/>
+        <br/>
+        <div id="learn-more">
+            <div class="divider"></div>
+            <div class="content">
+                <a href="#" class="cc-active">
+                    <h3>Want to Learn More?</h3>
+                    <h4>Download the 2016 Annual Report (PDF)</h4>
+                </a>
+            </div>
+        </div>
+        <div id="archives">
+            <h3>Archives</h3>
+            <div class="content">
+                <ul>
+                    <li><a href="" class="cc-active">2015 (PDF)</a></li>
+                    <li><a href="" class="cc-active">2014 (PDF)</a></li>
+                    <li><a href="" class="cc-active">2013 (PDF)</a></li>
+                    <li><a href="" class="cc-active">2012 (PDF)</a></li>
+                    <li><a href="" class="cc-active">2011 (PDF)</a></li>
+                    <li><a href="" class="cc-active">2010 (PDF)</a></li>
+                    <li><a href="" class="cc-active">2009 (PDF)</a></li>
+                    <li><a href="" class="cc-active">2008 (PDF)</a></li>
+                    <li><a href="" class="cc-active">2007 (PDF)</a></li>
+                    <li><a href="" class="cc-active">2006 (PDF)</a></li>
+                    <li><a href="" class="cc-active">2005 (PDF)</a></li>
+                    <li><a href="" class="cc-active">2004 (PDF)</a></li>
+                    <li><a href="" class="cc-active">2003 (PDF)</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+
+
     </div>
+</div>
 
 
-    <div class="footer-wrapper clearfix">
-        <footer class="wrap site-footer clearfix">
-            <p><a href="https://www.slatecommunications.com/" target="_blank">Annual Report by Slate Communications</a></p>
-        </footer>
-    </div>
+<div class="footer-wrapper clearfix">
+    <footer class="wrap site-footer clearfix">
+        <p><a href="https://www.slatecommunications.com/" target="_blank">Annual Report by Slate Communications</a></p>
+    </footer>
+</div>
 
-    <link rel="stylesheet" href="assets/css/flexslider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="assets/css/flexslider.css" type="text/css" media="screen" />

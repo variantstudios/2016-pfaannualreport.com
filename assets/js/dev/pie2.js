@@ -4,7 +4,7 @@
     labels : ["EMS","Good Intent Calls","False Alarms","Service Calls","Hazardous Conditions","Fires","Other"],
     datasets : [
       {
-        fillColor : "rgba(171,29,64,1)",
+        fillColor : "rgba(108,175,224,1)",
         highlightFill: "rgba(171,29,64,0.8)",
         data : [74,11,7,4,2.5,2,0.2]
       },
@@ -38,15 +38,7 @@ $(window).scroll(function() {
          scaleFontSize: 13,
          showScale: true,
          animationSteps: 200,
-         config: {
-  scales: {
-    xAxes: [{
-      ticks: {
-        maxRotation: 0 // angle in degrees
-      }
-    }]
-  }
-},
+         
          scaleLabel: " <%=value %>%",
          tooltipTemplate: "<%if (label){%><%=label %>: <%}%><%= value + ' %' %>",
       });        

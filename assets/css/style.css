@@ -950,6 +950,87 @@ ul.pager li a:visited {
   font-weight: normal;
   font-size: 1.5em;
 }
+/* line 180, ../sass/partials/design/blocks/_by-the-numbers.scss */
+#by-the-numbers .type-of-calls-grid .one .num {
+  color: #152D53;
+  font-size: 6em;
+  font-weight: bold;
+  float: left;
+}
+/* line 181, ../sass/partials/design/blocks/_by-the-numbers.scss */
+#by-the-numbers .type-of-calls-grid .one .txt {
+  color: #6CAFE0;
+  font-size: 2em;
+  font-family: "Alegreya", serif;
+  float: left;
+}
+/* line 182, ../sass/partials/design/blocks/_by-the-numbers.scss */
+#by-the-numbers .type-of-calls-grid .one img {
+  width: 45px;
+  float: left;
+}
+/* line 183, ../sass/partials/design/blocks/_by-the-numbers.scss */
+#by-the-numbers .type-of-calls-grid .one .wrap {
+  float: left;
+}
+/* line 184, ../sass/partials/design/blocks/_by-the-numbers.scss */
+#by-the-numbers .type-of-calls-grid .one .clear {
+  clear: both;
+}
+@media (min-width: 50em) {
+  /* line 179, ../sass/partials/design/blocks/_by-the-numbers.scss */
+  #by-the-numbers .type-of-calls-grid .one {
+    width: 31.91489%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none;
+  }
+}
+/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq #by-the-numbers .type-of-calls-grid .one {
+  width: 31.91489%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0;
+  clear: none;
+}
+@media (min-width: 50em) {
+  /* line 187, ../sass/partials/design/blocks/_by-the-numbers.scss */
+  #by-the-numbers .type-of-calls-grid .two {
+    width: 31.91489%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 34.04255%;
+    clear: none;
+  }
+}
+/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq #by-the-numbers .type-of-calls-grid .two {
+  width: 31.91489%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 34.04255%;
+  clear: none;
+}
+@media (min-width: 50em) {
+  /* line 190, ../sass/partials/design/blocks/_by-the-numbers.scss */
+  #by-the-numbers .type-of-calls-grid .three {
+    width: 31.91489%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+}
+/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq #by-the-numbers .type-of-calls-grid .three {
+  width: 31.91489%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+}
 
 /* line 3, ../sass/partials/design/blocks/_testimonials.scss */
 .testimonials .flexslider .flex-direction-nav .flex-prev {
@@ -1036,13 +1117,17 @@ ul.pager li a:visited {
 #budget .clearfix {
   margin-top: 2.4em;
 }
+/* line 5, ../sass/partials/design/blocks/_budget.scss */
+#budget .canvas-holder {
+  position: relative;
+}
 @media (min-width: 50em) {
   /* line 5, ../sass/partials/design/blocks/_budget.scss */
   #budget .canvas-holder {
     width: 40.42553%;
     float: left;
     margin-right: -100%;
-    margin-left: 8.51064%;
+    margin-left: 0;
     clear: none;
   }
 }
@@ -1051,17 +1136,30 @@ ul.pager li a:visited {
   width: 40.42553%;
   float: left;
   margin-right: -100%;
-  margin-left: 8.51064%;
+  margin-left: 0;
   clear: none;
 }
-/* line 9, ../sass/partials/design/blocks/_budget.scss */
-#budget .canvas-holder #chart-area2 {
-  widows: 100%;
+/* line 13, ../sass/partials/design/blocks/_budget.scss */
+#budget .canvas-holder .total {
+  width: 100%;
+  position: absolute;
+  top: 35%;
+  text-align: center;
+  color: #152C53;
+  font-size: 2.5em;
+  line-height: .9em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/* line 23, ../sass/partials/design/blocks/_budget.scss */
+#budget .canvas-holder .total .number {
+  font-size: 1.5em;
+  line-height: .9em;
 }
 @media (min-width: 50em) {
-  /* line 13, ../sass/partials/design/blocks/_budget.scss */
+  /* line 29, ../sass/partials/design/blocks/_budget.scss */
   #budget .chart-details {
-    width: 40.42553%;
+    width: 48.93617%;
     float: right;
     margin-left: 0;
     margin-right: 0;
@@ -1070,55 +1168,74 @@ ul.pager li a:visited {
 }
 /* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq #budget .chart-details {
-  width: 40.42553%;
+  width: 48.93617%;
   float: right;
   margin-left: 0;
   margin-right: 0;
   clear: none;
 }
-/* line 17, ../sass/partials/design/blocks/_budget.scss */
+/* line 33, ../sass/partials/design/blocks/_budget.scss */
 #budget .chart-details ul {
   margin: 0;
   padding: 0;
 }
-/* line 20, ../sass/partials/design/blocks/_budget.scss */
+/* line 36, ../sass/partials/design/blocks/_budget.scss */
 #budget .chart-details ul li {
   display: block;
   text-transform: uppercase;
   font-size: 1.8em;
   margin: 0 0 .4em 0;
 }
-/* line 28, ../sass/partials/design/blocks/_budget.scss */
+/* line 44, ../sass/partials/design/blocks/_budget.scss */
 #budget .color-152C53 {
   color: #152C53;
 }
-/* line 31, ../sass/partials/design/blocks/_budget.scss */
+/* line 47, ../sass/partials/design/blocks/_budget.scss */
 #budget .color-AA1E41 {
   color: #AA1E41;
 }
-/* line 34, ../sass/partials/design/blocks/_budget.scss */
+/* line 50, ../sass/partials/design/blocks/_budget.scss */
 #budget .color-626467 {
   color: #626467;
 }
-/* line 37, ../sass/partials/design/blocks/_budget.scss */
+/* line 53, ../sass/partials/design/blocks/_budget.scss */
 #budget .color-499544 {
   color: #499544;
 }
-/* line 40, ../sass/partials/design/blocks/_budget.scss */
+/* line 56, ../sass/partials/design/blocks/_budget.scss */
 #budget .color-F38020 {
   color: #F38020;
 }
-/* line 43, ../sass/partials/design/blocks/_budget.scss */
+/* line 59, ../sass/partials/design/blocks/_budget.scss */
 #budget .color-6CAEDF {
   color: #6CAEDF;
 }
-/* line 46, ../sass/partials/design/blocks/_budget.scss */
+/* line 62, ../sass/partials/design/blocks/_budget.scss */
 #budget .color-9C8B6F {
   color: #9C8B6F;
 }
-/* line 49, ../sass/partials/design/blocks/_budget.scss */
-#budget .color-626467 {
-  color: #626467;
+/* line 66, ../sass/partials/design/blocks/_budget.scss */
+#budget .reserves, #budget .expenditures {
+  margin: 4em 0 3em 0;
+  padding: 0 0 0 4em;
+}
+/* line 69, ../sass/partials/design/blocks/_budget.scss */
+#budget .reserves img, #budget .expenditures img {
+  display: inline-block;
+  width: 100px;
+}
+/* line 73, ../sass/partials/design/blocks/_budget.scss */
+#budget .reserves h3, #budget .expenditures h3 {
+  display: inline-block;
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 0 0 0 2em;
+  text-transform: uppercase;
+  font-size: 3em;
+  font-weight: normal;
+}
+/* line 82, ../sass/partials/design/blocks/_budget.scss */
+#budget .expenditures h3 {
+  color: #6CAEDF;
 }
 
 /* line 1, ../sass/partials/design/regions/_footer.scss */
