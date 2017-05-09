@@ -155,7 +155,16 @@
             }
         }
     }
-
+    .type-of-calls-graph {
+        .graph-labels {
+            text-align: right;
+            div {
+                width: 14%;
+                display: inline-block;
+                padding: 0 2em 2em 2em;
+            }
+        }
+    }
 
     .types-of-calls {
         h3 {

@@ -35,7 +35,7 @@ $(window).scroll(function() {
          scaleShowHorizontalLines: false,
          scaleShowVerticalLines: false,
          barShowStroke: false,
-         scaleFontSize: 13,
+         scaleFontSize: 0,
          showScale: true,
          animationSteps: 200,
          
