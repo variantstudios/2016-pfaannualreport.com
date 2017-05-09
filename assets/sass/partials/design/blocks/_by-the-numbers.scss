@@ -40,6 +40,7 @@
         color: #6CAFE0;
         font-size: 2em;
         text-transform: uppercase;
+        margin-bottom: 2em;
     }
     .blue-box-wrapper {
         margin-bottom: 1.5em;
@@ -111,7 +112,7 @@
                 color: #58595B;
             }
             .num {
-                font-size: 1.3em;
+                font-size: 1.8em;
                 font-weight: bold;
                 color: $color-one;
             }
@@ -154,7 +155,16 @@
             }
         }
     }
-
+    .type-of-calls-graph {
+        .graph-labels {
+            text-align: right;
+            div {
+                width: 14%;
+                display: inline-block;
+                padding: 0 2em 2em 2em;
+            }
+        }
+    }
 
     .types-of-calls {
         h3 {
@@ -170,24 +180,39 @@
         }
     }
 
-    canvas#bar {
-        // transform: rotate(90deg);
-        // margin: 160px 0 110px 0;
-    }
-
     .type-of-calls-grid {
+        margin:4em 0;
+        text-align: center;
+        div{
+            height:250px; 
+            line-height: 250px;
+        }
+        img{
+            vertical-align: middle;
+            //margin-bottom:1.5em;
+        }
         .one {
-            .num { color: #152D53; font-size: 6em; font-weight: bold; float: left; }
-            .txt { color: #6CAFE0; font-size: 2em; font-family: $heading-font-family; float: left;}
-            img { width: 45px;float: left; }
-            .wrap { float: left;  }
-            .clear { clear: both;} 
+            img { max-width: 220px; }
             @include breakpoint($bp-medium, $no-query: ".no-mq") { @include grid-span(4,1); }
         }
         .two {
+            img { max-width: 260px; }
             @include breakpoint($bp-medium, $no-query: ".no-mq") { @include grid-span(4,5); }
         }
         .three {
+            img { max-width: 200px; }
+            @include breakpoint($bp-medium, $no-query: ".no-mq") { @include grid-span(4,9); }
+        }
+        .four {
+            img { max-width: 160px; }
+            @include breakpoint($bp-medium, $no-query: ".no-mq") { @include grid-span(4,1); }
+        }
+        .five {
+            img { max-width: 290px; }
+            @include breakpoint($bp-medium, $no-query: ".no-mq") { @include grid-span(4,5); }
+        }
+        .six {
+            img { max-width: 245px; }
             @include breakpoint($bp-medium, $no-query: ".no-mq") { @include grid-span(4,9); }
         }
     }
