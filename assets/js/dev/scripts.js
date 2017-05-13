@@ -5,10 +5,20 @@ $(document).ready(function () {
   } else {
     $('html').addClass('no-mq');
   }
-  // Mobile Menu Funcation
-  // $(".menu-btn").on('click touch', function() {
-  //   $('.menu').toggleClass('show');
-  // });
+
+jQuery.fn.fadeDelay = function() {
+ delay = 0;
+ return this.each(function() {
+  $(this).delay(delay).fadeIn(550);
+  delay += 50;
+ });
+}
+$("#staff path").fadeDelay();
+$("#staff path").each(function(index) {
+    //$(this).delay(400*index).fadeIn(3);
+    //$(this).fadeDelay();
+});
+
 
   $(function () {
     var $allVideos = $("iframe[src^='//player.vimeo.com'], iframe[src^='//www.youtube.com'], object, embed"),
@@ -48,5 +58,8 @@ $(document).ready(function () {
       }
     });
   });
+
+
+
 
 });

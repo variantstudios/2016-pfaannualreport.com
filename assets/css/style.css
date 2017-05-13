@@ -673,8 +673,76 @@ ul.pager li a:visited {
   text-transform: none;
 }
 
+/* line 1, ../sass/partials/design/blocks/_by-the-numbers.scss */
+#staff path {
+  display: none;
+}
+
+/* line 9, ../sass/partials/design/blocks/_by-the-numbers.scss */
+#by-the-numbers .pfa-protects {
+  margin: 2.5em 0;
+}
 @media (min-width: 50em) {
-  /* line 2, ../sass/partials/design/blocks/_by-the-numbers.scss */
+  /* line 11, ../sass/partials/design/blocks/_by-the-numbers.scss */
+  #by-the-numbers .pfa-protects .left {
+    width: 23.40426%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none;
+    padding: 1em;
+  }
+}
+/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq #by-the-numbers .pfa-protects .left {
+  width: 23.40426%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0;
+  clear: none;
+  padding: 1em;
+}
+/* line 18, ../sass/partials/design/blocks/_by-the-numbers.scss */
+#by-the-numbers .pfa-protects .right h3 {
+  font-family: "Alegreya", serif;
+  text-transform: uppercase;
+  background: none;
+  color: #152D53;
+  font-size: 3.5em;
+  padding: 0;
+  line-height: .9em;
+}
+/* line 27, ../sass/partials/design/blocks/_by-the-numbers.scss */
+#by-the-numbers .pfa-protects .right h4 {
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  background: none;
+  color: #AB1D40;
+  font-size: 4.5em;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+@media (min-width: 50em) {
+  /* line 17, ../sass/partials/design/blocks/_by-the-numbers.scss */
+  #by-the-numbers .pfa-protects .right {
+    width: 74.46809%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+}
+/* line 92, ../../vendor/bundle/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq #by-the-numbers .pfa-protects .right {
+  width: 74.46809%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+}
+@media (min-width: 50em) {
+  /* line 42, ../sass/partials/design/blocks/_by-the-numbers.scss */
   #by-the-numbers .left {
     width: 50%;
     float: left;
@@ -692,7 +760,7 @@ ul.pager li a:visited {
   clear: none;
 }
 @media (min-width: 50em) {
-  /* line 7, ../sass/partials/design/blocks/_by-the-numbers.scss */
+  /* line 47, ../sass/partials/design/blocks/_by-the-numbers.scss */
   #by-the-numbers .right {
     width: 50%;
     float: right;
@@ -709,16 +777,16 @@ ul.pager li a:visited {
   margin-right: 0;
   clear: none;
 }
-/* line 12, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 52, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers .staff-icons {
   width: 100%;
 }
-/* line 15, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 55, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers ul.staff-title {
   margin: 2em 0 0 0;
   padding: 0;
 }
-/* line 18, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 58, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers ul.staff-title li {
   margin: 0 0 .5em 0;
   padding: 0;
@@ -726,19 +794,19 @@ ul.pager li a:visited {
   text-transform: uppercase;
   font-size: 2em;
 }
-/* line 24, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 64, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers ul.staff-title li.drk-blue {
   color: #002b54;
 }
-/* line 25, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 65, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers ul.staff-title li.lt-blue {
   color: #6caedf;
 }
-/* line 26, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 66, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers ul.staff-title li.red {
   color: #ab1d40;
 }
-/* line 29, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 69, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers h4 {
   border-top: dashed 1px #939598;
   border-bottom: dashed 1px #939598;
@@ -748,19 +816,19 @@ ul.pager li a:visited {
   font-size: 2em;
   color: #ab1d40;
 }
-/* line 39, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 79, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers h5.spinkler-title {
   color: #6CAFE0;
   font-size: 2em;
   text-transform: uppercase;
   margin-bottom: 2em;
 }
-/* line 45, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 85, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers .blue-box-wrapper {
   margin-bottom: 1.5em;
 }
 @media (min-width: 50em) {
-  /* line 47, ../sass/partials/design/blocks/_by-the-numbers.scss */
+  /* line 87, ../sass/partials/design/blocks/_by-the-numbers.scss */
   #by-the-numbers .blue-box-wrapper .blue-box {
     width: 75%;
     float: left;
@@ -777,12 +845,12 @@ ul.pager li a:visited {
   margin-left: 0;
   clear: none;
 }
-/* line 52, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 92, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers .blue-box-wrapper .water-icon {
   text-align: center;
 }
 @media (min-width: 50em) {
-  /* line 52, ../sass/partials/design/blocks/_by-the-numbers.scss */
+  /* line 92, ../sass/partials/design/blocks/_by-the-numbers.scss */
   #by-the-numbers .blue-box-wrapper .water-icon {
     width: 25%;
     float: right;
@@ -799,11 +867,11 @@ ul.pager li a:visited {
   margin-right: 0;
   clear: none;
 }
-/* line 57, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 97, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers .blue-box-wrapper .water-icon img {
   width: 100px;
 }
-/* line 60, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 100, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers .blue-box-wrapper .water-icon .num {
   color: #002b54;
   font-size: 4em;
@@ -811,7 +879,7 @@ ul.pager li a:visited {
   line-height: initial;
 }
 @media (min-width: 50em) {
-  /* line 60, ../sass/partials/design/blocks/_by-the-numbers.scss */
+  /* line 100, ../sass/partials/design/blocks/_by-the-numbers.scss */
   #by-the-numbers .blue-box-wrapper .water-icon .num {
     margin-top: -20px;
   }
@@ -820,7 +888,7 @@ ul.pager li a:visited {
 .no-mq #by-the-numbers .blue-box-wrapper .water-icon .num {
   margin-top: -20px;
 }
-/* line 72, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 112, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers .blue-box {
   background-color: #002b54;
   border-radius: 10px;
@@ -828,7 +896,7 @@ ul.pager li a:visited {
   padding: 1em 1em .1em 1em;
   font-size: 1.5em;
 }
-/* line 79, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 119, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers .red-box {
   background-color: #ab1d40;
   border-radius: 10px;
@@ -837,12 +905,12 @@ ul.pager li a:visited {
   font-size: 1.4em;
   margin-bottom: 2em;
 }
-/* line 88, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 128, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers .death-injury-wrapper {
   margin: 2em 0 0 0;
 }
 @media (min-width: 50em) {
-  /* line 90, ../sass/partials/design/blocks/_by-the-numbers.scss */
+  /* line 130, ../sass/partials/design/blocks/_by-the-numbers.scss */
   #by-the-numbers .death-injury-wrapper .icon {
     width: 23.40426%;
     float: left;
@@ -859,12 +927,12 @@ ul.pager li a:visited {
   margin-left: 0;
   clear: none;
 }
-/* line 94, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 134, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers .death-injury-wrapper .icon img {
   width: 70%;
 }
 @media (min-width: 50em) {
-  /* line 98, ../sass/partials/design/blocks/_by-the-numbers.scss */
+  /* line 138, ../sass/partials/design/blocks/_by-the-numbers.scss */
   #by-the-numbers .death-injury-wrapper .details {
     width: 74.46809%;
     float: right;
@@ -881,27 +949,27 @@ ul.pager li a:visited {
   margin-right: 0;
   clear: none;
 }
-/* line 102, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 142, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers .death-injury-wrapper .details h5 {
   color: #6CAFDF;
   font-size: 2.8em;
   text-transform: uppercase;
   margin: 0;
 }
-/* line 108, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 148, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers .death-injury-wrapper .details p {
   font-size: 2.5em;
   margin-bottom: .4em;
   text-transform: uppercase;
   color: #58595B;
 }
-/* line 114, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 154, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers .death-injury-wrapper .details .num {
   font-size: 1.8em;
   font-weight: bold;
   color: #002b54;
 }
-/* line 125, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 165, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers .more-stats {
   background-color: #E6E7E8;
   border-radius: 20px;
@@ -909,7 +977,7 @@ ul.pager li a:visited {
   margin: 4em 0;
   text-align: center;
 }
-/* line 131, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 171, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers .more-stats .graph {
   text-align: center;
   background-color: #D1D3D4;
@@ -920,11 +988,11 @@ ul.pager li a:visited {
   display: block;
   float: left;
 }
-/* line 140, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 180, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers .more-stats .graph img {
   height: 100%;
 }
-/* line 144, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 184, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers .more-stats p {
   display: inline;
   text-transform: uppercase;
@@ -934,22 +1002,22 @@ ul.pager li a:visited {
   margin: 0;
   line-height: initial;
 }
-/* line 152, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 192, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers .more-stats p a {
   text-decoration: none;
   color: #6CAFDF;
 }
-/* line 159, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 199, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers .type-of-calls-graph .graph-labels {
   text-align: right;
 }
-/* line 161, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 201, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers .type-of-calls-graph .graph-labels div {
   width: 14%;
   display: inline-block;
   padding: 0 2em 2em 2em;
 }
-/* line 170, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 210, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers .types-of-calls h3 {
   display: block;
   margin: 0;
@@ -961,26 +1029,26 @@ ul.pager li a:visited {
   font-weight: normal;
   font-size: 1.5em;
 }
-/* line 183, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 223, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers .type-of-calls-grid {
   margin: 4em 0;
   text-align: center;
 }
-/* line 186, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 226, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers .type-of-calls-grid div {
   height: 250px;
   line-height: 250px;
 }
-/* line 190, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 230, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers .type-of-calls-grid img {
   vertical-align: middle;
 }
-/* line 195, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 235, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers .type-of-calls-grid .one img {
   max-width: 220px;
 }
 @media (min-width: 50em) {
-  /* line 194, ../sass/partials/design/blocks/_by-the-numbers.scss */
+  /* line 234, ../sass/partials/design/blocks/_by-the-numbers.scss */
   #by-the-numbers .type-of-calls-grid .one {
     width: 31.91489%;
     float: left;
@@ -997,12 +1065,12 @@ ul.pager li a:visited {
   margin-left: 0;
   clear: none;
 }
-/* line 199, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 239, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers .type-of-calls-grid .two img {
   max-width: 260px;
 }
 @media (min-width: 50em) {
-  /* line 198, ../sass/partials/design/blocks/_by-the-numbers.scss */
+  /* line 238, ../sass/partials/design/blocks/_by-the-numbers.scss */
   #by-the-numbers .type-of-calls-grid .two {
     width: 31.91489%;
     float: left;
@@ -1019,12 +1087,12 @@ ul.pager li a:visited {
   margin-left: 34.04255%;
   clear: none;
 }
-/* line 203, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 243, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers .type-of-calls-grid .three img {
   max-width: 200px;
 }
 @media (min-width: 50em) {
-  /* line 202, ../sass/partials/design/blocks/_by-the-numbers.scss */
+  /* line 242, ../sass/partials/design/blocks/_by-the-numbers.scss */
   #by-the-numbers .type-of-calls-grid .three {
     width: 31.91489%;
     float: right;
@@ -1041,12 +1109,12 @@ ul.pager li a:visited {
   margin-right: 0;
   clear: none;
 }
-/* line 207, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 247, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers .type-of-calls-grid .four img {
   max-width: 160px;
 }
 @media (min-width: 50em) {
-  /* line 206, ../sass/partials/design/blocks/_by-the-numbers.scss */
+  /* line 246, ../sass/partials/design/blocks/_by-the-numbers.scss */
   #by-the-numbers .type-of-calls-grid .four {
     width: 31.91489%;
     float: left;
@@ -1063,12 +1131,12 @@ ul.pager li a:visited {
   margin-left: 0;
   clear: none;
 }
-/* line 211, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 251, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers .type-of-calls-grid .five img {
   max-width: 290px;
 }
 @media (min-width: 50em) {
-  /* line 210, ../sass/partials/design/blocks/_by-the-numbers.scss */
+  /* line 250, ../sass/partials/design/blocks/_by-the-numbers.scss */
   #by-the-numbers .type-of-calls-grid .five {
     width: 31.91489%;
     float: left;
@@ -1085,12 +1153,12 @@ ul.pager li a:visited {
   margin-left: 34.04255%;
   clear: none;
 }
-/* line 215, ../sass/partials/design/blocks/_by-the-numbers.scss */
+/* line 255, ../sass/partials/design/blocks/_by-the-numbers.scss */
 #by-the-numbers .type-of-calls-grid .six img {
   max-width: 245px;
 }
 @media (min-width: 50em) {
-  /* line 214, ../sass/partials/design/blocks/_by-the-numbers.scss */
+  /* line 254, ../sass/partials/design/blocks/_by-the-numbers.scss */
   #by-the-numbers .type-of-calls-grid .six {
     width: 31.91489%;
     float: right;
