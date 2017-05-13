@@ -1,4 +1,44 @@
+#staff path {
+    display: none;
+}
+// svg #staff path {
+//    fill: blue;
+// }
+
 #by-the-numbers{
+    .pfa-protects {
+        margin: 2.5em 0;
+        .left {
+        @include breakpoint($bp-medium, $no-query: ".no-mq") {
+                @include grid-span(3,1);
+                padding: 1em;
+        }
+    }
+    .right {
+        h3 {
+            font-family: $heading-font-family;
+            text-transform: uppercase;
+            background: none;
+            color: #152D53;
+            font-size: 3.5em;
+            padding: 0;
+            line-height: .9em;
+        }
+        h4 {
+            font-family: $font-family;
+            text-transform: uppercase;
+            background: none;
+            color: #AB1D40;
+            font-size: 4.5em;
+            border: none;
+            padding: 0;
+            margin: 0;
+        }
+        @include breakpoint($bp-medium, $no-query: ".no-mq") {
+                @include grid-span(9,4);
+        }
+    }
+    }
     .left {
         @include breakpoint($bp-medium, $no-query: ".no-mq") {
                 @include grid-span(6,1,$gutter:0);
