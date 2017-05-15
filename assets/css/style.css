@@ -1180,11 +1180,21 @@ ul.pager li a:visited {
 .testimonials .flexslider .flex-direction-nav .flex-prev {
   left: 5px;
 }
-/* line 6, ../sass/partials/design/blocks/_testimonials.scss */
+/* line 5, ../sass/partials/design/blocks/_testimonials.scss */
+.testimonials .flexslider .flex-direction-nav .flex-prev:before {
+  color: #6dafdf;
+  text-shadow: none;
+}
+/* line 7, ../sass/partials/design/blocks/_testimonials.scss */
 .testimonials .flexslider .flex-direction-nav .flex-next {
   right: 10px;
 }
-/* line 10, ../sass/partials/design/blocks/_testimonials.scss */
+/* line 9, ../sass/partials/design/blocks/_testimonials.scss */
+.testimonials .flexslider .flex-direction-nav .flex-next:before {
+  color: #6dafdf;
+  text-shadow: none;
+}
+/* line 12, ../sass/partials/design/blocks/_testimonials.scss */
 .testimonials h3 {
   text-transform: uppercase;
   font-size: 2em;
@@ -1194,7 +1204,7 @@ ul.pager li a:visited {
   padding: 20px 0;
   margin: 0;
 }
-/* line 19, ../sass/partials/design/blocks/_testimonials.scss */
+/* line 21, ../sass/partials/design/blocks/_testimonials.scss */
 .testimonials .testimonial-wrap {
   padding: 2em 4em;
 }
@@ -1216,12 +1226,12 @@ ul.pager li a:visited {
   margin-left: 0;
   clear: none;
 }
-/* line 25, ../sass/partials/design/blocks/_testimonials.scss */
+/* line 27, ../sass/partials/design/blocks/_testimonials.scss */
 .testimonials .testimonial {
   font-size: 1.4em;
   font-weight: 300;
 }
-/* line 29, ../sass/partials/design/blocks/_testimonials.scss */
+/* line 31, ../sass/partials/design/blocks/_testimonials.scss */
 .testimonials .name {
   color: #6CAFDF;
   font-weight: bold;
@@ -1255,6 +1265,14 @@ ul.pager li a:visited {
   margin-left: 0;
   margin-right: 0;
   clear: none;
+}
+/* line 14, ../sass/partials/design/blocks/_year-in-photos.scss */
+.year-in-photos .slides li h6 {
+  background: #6dafdf;
+  color: #fff;
+  margin: 0;
+  padding: 16px 5px;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 /* line 2, ../sass/partials/design/blocks/_budget.scss */
