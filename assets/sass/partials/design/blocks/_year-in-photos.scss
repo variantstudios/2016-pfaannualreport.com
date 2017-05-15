@@ -11,5 +11,12 @@
     @include breakpoint($bp-medium, $no-query: ".no-mq") {
         @include grid-span(6,7,$gutter:0);
     }
+    .slides li h6 {
+        background: #6dafdf;
+        color: #fff;
+        margin: 0;
+        padding: 16px 5px;
+        font-family: $font-family;
+    }
     
 }
