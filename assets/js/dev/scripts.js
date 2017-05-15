@@ -6,18 +6,37 @@ $(document).ready(function () {
     $('html').addClass('no-mq');
   }
 
-jQuery.fn.fadeDelay = function() {
- delay = 0;
- return this.each(function() {
-  $(this).delay(delay).fadeIn(550);
-  delay += 50;
- });
+
+var inView8 = false;
+
+function isScrolledIntoView(elem)
+{
+  var docViewTop = $(window).scrollTop();
+  var docViewBottom = docViewTop + $(window).height();
+  var elemTop = $(elem).offset().top;
+  var elemBottom = elemTop + $(elem).height();
+  return ((elemTop <= docViewBottom) && (elemBottom >= docViewTop));
 }
-$("#staff path").fadeDelay();
-$("#staff path").each(function(index) {
-    //$(this).delay(400*index).fadeIn(3);
-    //$(this).fadeDelay();
+$(window).scroll(function() {
+  if (isScrolledIntoView('#staff')) {
+      if (inView8) { return; }
+      inView8 = true;
+      jQuery.fn.fadeDelay = function() {
+      delay = 0;
+      return this.each(function() {
+        $(this).delay(delay).fadeIn(550);
+        delay += 50;
+      });
+      }
+      $("#staff path").fadeDelay();
+
+  } else {
+      inView8 = false;  
+  }
 });
+
+
+
 
 
   $(function () {
