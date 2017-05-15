@@ -1276,7 +1276,7 @@ ul.pager li a:visited {
   background: #6dafdf;
   color: #fff;
   margin: 0;
-  padding: 16px 5px;
+  padding: 16px 0 16px 10px;
   font-family: "Roboto Condensed", sans-serif;
 }
 
@@ -1381,17 +1381,41 @@ ul.pager li a:visited {
 #budget .color-9C8B6F {
   color: #9C8B6F;
 }
-/* line 66, ../sass/partials/design/blocks/_budget.scss */
+/* line 65, ../sass/partials/design/blocks/_budget.scss */
+#budget .color-6CAFDF {
+  color: #6CAFDF;
+}
+/* line 68, ../sass/partials/design/blocks/_budget.scss */
+#budget .color-43C17D {
+  color: #43C17D;
+}
+/* line 71, ../sass/partials/design/blocks/_budget.scss */
+#budget .color-002B54 {
+  color: #002B54;
+}
+/* line 74, ../sass/partials/design/blocks/_budget.scss */
+#budget .color-9D68DE {
+  color: #9D68DE;
+}
+/* line 77, ../sass/partials/design/blocks/_budget.scss */
+#budget .color-D41A1A {
+  color: #D41A1A;
+}
+/* line 80, ../sass/partials/design/blocks/_budget.scss */
+#budget .color-F48120 {
+  color: #F48120;
+}
+/* line 84, ../sass/partials/design/blocks/_budget.scss */
 #budget .reserves, #budget .expenditures {
   margin: 4em 0 3em 0;
   padding: 0 0 0 4em;
 }
-/* line 69, ../sass/partials/design/blocks/_budget.scss */
+/* line 87, ../sass/partials/design/blocks/_budget.scss */
 #budget .reserves img, #budget .expenditures img {
   display: inline-block;
   width: 100px;
 }
-/* line 73, ../sass/partials/design/blocks/_budget.scss */
+/* line 91, ../sass/partials/design/blocks/_budget.scss */
 #budget .reserves h3, #budget .expenditures h3 {
   display: inline-block;
   font-family: "Roboto Condensed", sans-serif;
@@ -1400,7 +1424,7 @@ ul.pager li a:visited {
   font-size: 3em;
   font-weight: normal;
 }
-/* line 82, ../sass/partials/design/blocks/_budget.scss */
+/* line 100, ../sass/partials/design/blocks/_budget.scss */
 #budget .expenditures h3 {
   color: #6CAEDF;
 }
