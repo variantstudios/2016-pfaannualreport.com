@@ -82,6 +82,16 @@
     }
 
     .reserves, .expenditures {
+        .left {
+             @include breakpoint($bp-medium, $no-query: ".no-mq") {
+                @include grid-span(1,1,$gutter:0);
+            }
+        }
+        .right {
+            @include breakpoint($bp-medium, $no-query: ".no-mq") {
+                @include grid-span(11,2,$gutter:0);
+            }
+        }
         margin: 4em 0 3em 0;
         padding: 0 0 0 4em;
         img {
@@ -100,6 +110,7 @@
     .expenditures h3 {
         color: #6CAEDF;
     }
+    
     
 
 }
