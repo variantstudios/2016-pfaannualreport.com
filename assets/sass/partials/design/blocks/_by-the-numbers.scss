@@ -1,5 +1,26 @@
-#staff path {
-    display: none;
+#staff {
+    width: 100%;
+     path {
+        display: none;
+    }
+}
+.scaling-svg-container {
+    @include breakpoint($bp-medium, $no-query: ".no-mq") {    
+        position: relative; 
+        height: 0; 
+        width: 100%; 
+        padding: 0;
+        padding-bottom: 365px;
+    }
+}
+.scaling-svg {
+    @include breakpoint($bp-medium, $no-query: ".no-mq") { 
+        position: absolute; 
+        height: 100%; 
+        width: 100%; 
+        left: 0; 
+        top: 0;
+    }
 }
 // svg #staff path {
 //    fill: blue;

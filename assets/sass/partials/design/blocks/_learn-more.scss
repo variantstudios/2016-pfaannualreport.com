@@ -11,13 +11,19 @@
         }
         h3 {
             color: #fff;
-            font-size: 4.5em;
+            font-size: 2.5em;
             margin: 0 0 0 -1em;
+             @include breakpoint($bp-medium, $no-query: ".no-mq") {  
+                 font-size: 4.5em;
+             }
         }
         h4 {
             color: #fff;
-            font-size: 2.5em;
+            font-size: 1.5em;
             margin: 0 0 0 -1em;
+             @include breakpoint($bp-medium, $no-query: ".no-mq") {  
+                 font-size: 1.5em;
+             }
         }
     
     }
